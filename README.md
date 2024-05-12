@@ -1,8 +1,16 @@
-# React + Vite
+# heroes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introducción
 
-Currently, two official plugins are available:
+Este es un proyecto de aprendizaje para utilizar el Router en React y varios valores mas como Push y Replace en el History
+,Leer argumentos por URL, QueryParams, Aplicar filtros utilizando QueryStrings
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-----------------------------------------------------
+
+implemente las rutas en mi aplicacion con el hook de react de Router y utilice un .json para lograr mapearlo como una api sobre super heroes.
+para los queryParams uste una bibloteca llamada query-string que hace un trabajo mas facil en las cadenas de url y analiza de forma mas segura una peticion Query
+
+-----------------------------------------------------
+##Actualizacion.
+
+implementacion de proteccion de rutas, rutas privadas y publicas, login y logout (sin backend), visualizar ultima ruta visitada, uso de context y reducer.
